@@ -22,11 +22,11 @@ public class Main {
 		
 		Conto conto = gestore_ord.apriConto(new Tavolo(), new Cameriere(), Formula.ALLA_CARTA, 3);
 		
-		Piatto [] piatti = new Piatto[3];
+		Piatto [] piatti = new Piatto[4];
 		piatti[0] = piattiInMenu.get(1); // SUSHI SALMONE
 		piatti[1] = piattiInMenu.get(3); // SUSHI ANGUILLA
 		piatti[2] = piattiInMenu.get(4); // SASHIMI TONNO
-		int [] qtaPiatti = { 3, 3, 2 };
+		int [] qtaPiatti = { 3, 3, 1 };
 		
 		Bevanda [] bevande = new Bevanda[3];
 		bevande[0] = bevandeInMenu.get(1); // ACQUA LISCIA
